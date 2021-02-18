@@ -76,6 +76,8 @@ tr.border_bottom td {
   position: absolute;
   height: 100%;
   width: 100%;
+  left: 0;
+  top: 0;
 }
 
 #user-profile-img {
@@ -92,7 +94,7 @@ tr.border_bottom td {
   position: absolute;
   border-radius: 25px;
   background: white;
-  top: 235px;
+  top: 220px;
 }
 
 #nav {
@@ -139,5 +141,11 @@ tr.border_bottom td {
 @media only screen and (min-width: 768px) {
   #user-profile-wrapper {
     width: 410px;
+    left: 10px;
+    top: 10px;
+  }
+
+  #user-info {
+    top: 235px;
   }
 }
