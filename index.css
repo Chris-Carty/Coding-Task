@@ -50,6 +50,10 @@ table {
   table-layout: fixed;
 }
 
+table td {
+  white-space: nowrap;
+}
+
 tr.border_bottom td {
   border-bottom: 1.25px solid #462681;
 }
@@ -71,7 +75,7 @@ tr.border_bottom td {
 #user-profile-wrapper {
   position: absolute;
   height: 100%;
-  width: 410px;
+  width: 100%;
 }
 
 #user-profile-img {
@@ -133,4 +137,7 @@ tr.border_bottom td {
 }
 
 @media only screen and (min-width: 768px) {
+  #user-profile-wrapper {
+    width: 410px;
+  }
 }
