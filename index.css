@@ -1,0 +1,136 @@
+/* FONT IMPORT */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap");
+
+/* GLOBAL STYLES */
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #462681;
+  font-weight: 900;
+  height: 100%;
+  background: rgb(83, 83, 83);
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 0.5px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+h3 {
+  font-size: 25px;
+  line-height: 0px;
+}
+
+h4 {
+  font-size: 15px;
+  line-height: 2.5px;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 17px;
+  margin-left: 2.5px;
+}
+
+/* TABLE STYLES */
+
+table {
+  width: 90%;
+  height: 100%;
+  border-collapse: collapse;
+  margin: 10px 20px 20px 20px;
+  table-layout: fixed;
+}
+
+tr.border_bottom td {
+  border-bottom: 1.25px solid #462681;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.vertical-align {
+  vertical-align: top;
+}
+
+/* MAIN CONTENT WRAPPER STYLES */
+
+#user-profile-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 410px;
+}
+
+#user-profile-img {
+  width: 100%;
+  position: absolute;
+}
+
+#user-profile-img img {
+  width: 100%;
+}
+
+#user-info {
+  width: 100%;
+  position: absolute;
+  border-radius: 25px;
+  background: white;
+  top: 235px;
+}
+
+#nav {
+  z-index: 2;
+  color: white !important;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-left: 10px;
+}
+
+#categories-text {
+  margin-top: 30px;
+}
+
+.inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* SVG STYLES */
+
+#plus-icon {
+  width: 20px;
+  margin-right: 5px;
+}
+
+#more-icon {
+  width: 25px;
+  padding-top: 35px;
+  padding-right: 15px;
+}
+
+#white-arrow-icon {
+  width: 17px;
+}
+
+.purple-arrow-icon {
+  width: 17px;
+}
+
+@media only screen and (min-width: 768px) {
+}
