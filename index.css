@@ -333,6 +333,7 @@ tr.border-bottom td {
   .user-profile-wrapper2,
   .user-profile-wrapper3 {
     width: 28%;
+    height: 100%;
     margin: 0px 10px;
   }
 
