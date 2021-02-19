@@ -273,6 +273,10 @@ tr.border-bottom td {
   width: 17px;
 }
 
+.go-to-icon {
+  width: 18px;
+}
+
 /* ANIMATIONS */
 @keyframes swing {
   15% {
